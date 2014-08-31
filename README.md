@@ -7,7 +7,7 @@ Python dictionary based on that article's infobox.
 Simply place the wikitodict package in your project directory and
 use like so:
 
-```
+```python
 import wikitodict
 result = wikitodict.search('Cheers')
 result['genre']
