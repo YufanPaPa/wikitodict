@@ -50,5 +50,3 @@ def _parse(box_str):
                 infobox_dict[key] = value
 
     return infobox_dict
-
-from pprint import pprint
