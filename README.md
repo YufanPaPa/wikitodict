@@ -7,7 +7,7 @@ Python dictionary based on that article's infobox.
 Simply place the wikitodict package in your project directory and
 use like so:
 
-'''
+```
 import wikitodict
 
 result = wikitodict.search('Cheers')
@@ -24,7 +24,7 @@ result['opentheme']
 
 u'"Where Everybody Knows Your Name" <br />Performed by Gary
 Portnoy'
-'''
+```
 
 ##Issues
 This is about as quick and dirty as it gets. 
