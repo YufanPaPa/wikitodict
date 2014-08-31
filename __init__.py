@@ -52,4 +52,3 @@ def _parse(box_str):
     return infobox_dict
 
 from pprint import pprint
-pprint(search('Cheers'))
