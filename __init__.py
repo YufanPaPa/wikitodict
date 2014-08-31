@@ -9,6 +9,8 @@ def search(title):
         title = re.findall("\[\[(.*)\]\]", box_str)[0]
         box_str = _get_infobox(title)
 
+    print box_str
+
     box_dict = _parse(box_str)
     box_dict['article_title'] = title
 
@@ -30,7 +32,7 @@ def _get_infobox(search_term):
 
 def _parse(box_str):
     boxtype = re.findall('\{\{Infobox (.*)\n', box_str)[0]
-    regex = re.compile('\{\{Infobox(.*)\n\}\}', re.DOTALL)
+    regex = re.compile('\{\{Infobox(.*)\}\}\n', re.DOTALL)
     box = re.findall(regex, box_str)[0]
 
     infobox_dict = {'boxtype': boxtype}
@@ -49,3 +51,5 @@ def _parse(box_str):
 
     return infobox_dict
 
+from pprint import pprint
+pprint(search('Cheers'))
