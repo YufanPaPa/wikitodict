@@ -4,7 +4,7 @@ This little script takes a Wikipedia article title and returns a
 Python dictionary based on that article's infobox.
 
 ##Usage
-Simply place the wikitodict package in your project directory and
+Simply place the wikitodict module in your project directory and
 use like so:
 
 ```python
