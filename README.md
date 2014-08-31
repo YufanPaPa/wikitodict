@@ -9,12 +9,12 @@ use like so:
 
 ```python
 import wikitodict
-result = wikitodict.search('Cheers')
-result['genre']
+cheers = wikitodict.search('Cheers')
+cheers['genre']
 u'Sitcom'
-result['num_seasons']
+cheers['num_seasons']
 u'11'
-result['opentheme']
+cheers['opentheme']
 u'"Where Everybody Knows Your Name" <br />Performed by Gary Portnoy'
 ```
 
