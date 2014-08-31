@@ -9,21 +9,13 @@ use like so:
 
 ```
 import wikitodict
-
 result = wikitodict.search('Cheers')
-
 result['genre']
-
 u'Sitcom'
-
 result['num_seasons']
-
 u'11'
-
 result['opentheme']
-
-u'"Where Everybody Knows Your Name" <br />Performed by Gary
-Portnoy'
+u'"Where Everybody Knows Your Name" <br />Performed by Gary Portnoy'
 ```
 
 ##Issues
