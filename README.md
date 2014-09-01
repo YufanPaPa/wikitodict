@@ -8,13 +8,13 @@ Simply place the wikitodict module in your project directory and
 use like so:
 
 ```python
-import wikitodict
-cheers = wikitodict.search('Cheers')
-cheers['genre']
+>>> import wikitodict
+>>> cheers = wikitodict.search('Cheers')
+>>> cheers['genre']
 u'Sitcom'
-cheers['num_seasons']
+>>> cheers['num_seasons']
 u'11'
-cheers['opentheme']
+>>> cheers['opentheme']
 u'"Where Everybody Knows Your Name" <br />Performed by Gary Portnoy'
 ```
 
