@@ -34,3 +34,4 @@ the value 'Nobel Peace Prize'.
 - [ ] Find a way to parse and remove wikicode
 - [ ] Resolve 'blank#' keys with 'data#' values
 - [ ] Make it work with an offline version of wikipedia.
+- [ ] Change the same of the search function to fetch, which I think makes more sense.
