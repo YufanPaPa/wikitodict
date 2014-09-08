@@ -29,3 +29,8 @@ for 'Barack Obama' contains the key 'blank1' with the value
 'Awards' and the key 'data1' with the value 'Nobel Peace Prize'.
 A much better result would be an entry with the key 'Awards' and
 the value 'Nobel Peace Prize'.
+
+##TODO
+[ ] Find a way to parse and remove wikicode
+[ ] Resolve 'blank#' keys with 'data#' values
+[ ] Make it work with an offline version of wikipedia.
