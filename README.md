@@ -31,6 +31,6 @@ A much better result would be an entry with the key 'Awards' and
 the value 'Nobel Peace Prize'.
 
 ##TODO
-[ ] Find a way to parse and remove wikicode
-[ ] Resolve 'blank#' keys with 'data#' values
-[ ] Make it work with an offline version of wikipedia.
+- [ ] Find a way to parse and remove wikicode
+- [ ] Resolve 'blank#' keys with 'data#' values
+- [ ] Make it work with an offline version of wikipedia.
