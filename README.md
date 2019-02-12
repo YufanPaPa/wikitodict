@@ -30,8 +30,3 @@ for 'Barack Obama' contains the key 'blank1' with the value
 A much better result would be an entry with the key 'Awards' and
 the value 'Nobel Peace Prize'.
 
-##TODO
-- [ ] Find a way to parse and remove wikicode
-- [ ] Resolve 'blank#' keys with 'data#' values
-- [ ] Make it work with an offline version of wikipedia.
-- [ ] Change the name of the search function to fetch, which I think makes more sense.
